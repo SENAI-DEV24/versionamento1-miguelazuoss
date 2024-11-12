@@ -1,0 +1,31 @@
+1 Oque é versionamento de software e qual é sua importância no desenvolvimento de projetos?
+
+É a prática de rastrear e gerenciar as alterações em um código de software, é de eximia importancia para acompanhar e possuir registros de versões anteriores do codigo, para fins de segurança e integridade do codigo com o historico e registros do mesmo.
+
+2- Quais são as principais vantagens de utilizar sistemas de controle de versão, como Git, em projetos de desenvolvimento de software?
+A precisão do controle de versão, a colaboração transparente, a rastreabilidade do código e a facilidade de implantação, backup e recuperação de desastres
+
+
+3- Quais são os principais sistemas de controle de versão disponiveis atualmente?
+Bazaar, CVS, Subversion, Mercurial, GIT
+
+4 Como funciona o processo de criação e gerenciamento de um repositorio em um sistema de controle de versão?
+Criação do repositorio, configurações de acesso, commits no repositorio com atualizações do codigo, criação de Branchs para separar ramos do projeto, após devidos commits em cada branch, realizar o merge para juntar alterações, repando qualquer conflito que aparecer.
+
+5- Oque são commits e como eles são uteis para controlar mudanças em um projeto?
+Levam as mudanças de um ambiente local para o repositório no git, permitindo ainda a inserção de uma mensagem descritiva oque facilita a visualização das mudanças no projeto.
+
+6-Como os branchs são utilizados no versiomaneto de software? Quais são os beneficios de trabalhar com branches em projetos de desenvolvimento?
+Branch é uma cópia separada onde você pode fazer mudanças sem afetar o codigo principal, frequentente utilizada separando mudanças de codigo, ou funcionalidades novas antes de mesclar (merge) com o ramo principal, otima forma de corrigir erros ou testar algo sem arriscar estragar o que já está funcionando
+
+7- Oque é uma mesclagem ( merge) no contexto de versiomaneto de codigo? como ela é realizado?
+Merge é uma operação que concilia várias alterações feitas a uma coleção de arquivos controlada por versão. Na maioria das vezes, é necessária quando um arquivo é modificado por duas pessoas em dois computadores diferentes ao mesmo tempo para a junção dos mesmos em apenas um "historico".
+
+8- Quais são os principais desafios que podem surgir ao trabalhar com varios desenvolvedores em um mesmo projeto e como o versionamento de software pode ajudar a supera-los?
+Principal desafio é a mudança constanto no conteudo do projeto, podendo ocorrer diversos conflitos com mudanças repetidas ou sobreescritas de funcionalidades do mesmo, ocorrendo assim um projeto mal estruturado e não produtivo com menor capacidade de backup ou retorno de um arquivo anterior, com o versionamento de codigo as mudanças realizadas em equipe é mais organizada, podendo ser separada por ramos diferentes sem afetar o arquivo principal e para futuras restaurações e historico de mudanças feitas no projeto.
+
+9- Quais são as melhores praticas para escrever mensagens de commit significativas e uteis?
+A padronização das mensagens com a utilização de um lint ou type para o commit feito ( ex build ci chore docs feat fix perf refactor revert style test ) e mensagem clara e assertiva, para melhor visualização das mudanças feitas ao longo do tempo e para melhor entendimento de outros integrantes no projeto
+
+10-Como resolver conflitos de mesclagem ( merge ) que ocorrem quando dois ou mais desenvolvedores modificam o mesmo trecho de codigo?
+Para resolver conflitos de mesclagem, é necessario editar o código para unificar as alterações conflitantes, escolhendo ou combinando as versões modificadas, posteriomente finalizando o merge com os devidos comandos.
